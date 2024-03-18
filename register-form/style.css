@@ -1,0 +1,77 @@
+body {
+    background: linear-gradient(to right, #070a31, #7986CB);
+    font-family: 'Poppind' , sans-serif;
+}
+
+#register_form {
+    width: 300px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background-color: #E8EAF6;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+#register_form button{
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: #E8EAF6;
+    background-color: #070a31;
+    border: none;
+    border-radius: 4px;
+}
+
+.input-control{
+    display: flex;
+    flex-direction: column;
+    margin: 8px auto 8px auto;
+}
+.input-control input{
+    border : 2px solid #E8EAF6;
+    border-radius: 4px;
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+label.error {
+    font-weight: 700;
+    display: block;
+    color: red;
+    font-size: 9px;
+}
+
+.result-container{
+    width: 300px;
+    margin: 20vh auto 0 auto;
+    padding: 30px;
+    background-color: #E8EAF6;
+    border-radius: 4px;
+}
+
+.result-container .check{
+    margin-left:auto;
+    margin-right:auto;
+    width: 37%;
+
+}
+
+.result-container .check i{
+    color: rgb(26, 179, 26);
+    width: 30px;
+    height: 30px;
+    font-size: 100px;
+    margin: 20px auto 20px auto;
+}
+
+h1 {
+    font-size: 20px;
+    text-align: center ;
+    color: #070a31;
+    margin: 30px auto 20px auto;
+}
